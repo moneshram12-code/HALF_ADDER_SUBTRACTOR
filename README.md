@@ -62,13 +62,13 @@ Figure -02 HALF Subtractor
        output wire sum,    //sum output
        
        output wire carry,  //carry output
-  );
+     );
        
        assign sum = a ^ b;  //XOR for sum
        
        assign carry = a & b; //AND For carry
 
-   endmodule
+      endmodule
 
 2)
 
@@ -79,7 +79,7 @@ Figure -02 HALF Subtractor
      input wire a, b,          //Inputs
      
      output wire diff, borrow  //Outputs
- );
+    );
      
       // Logic equations 
       
@@ -87,7 +87,7 @@ Figure -02 HALF Subtractor
       
       assign borrow = ~a & b;       // Borrow when a < b
       
-  endmodule  
+    endmodule  
 
 Developed by: Monish . R
 RegisterNumber: 250147815
