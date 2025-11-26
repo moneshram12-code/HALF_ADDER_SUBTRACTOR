@@ -35,6 +35,19 @@ Figure -02 HALF Subtractor
 
 **Truthtable**
 
+Half Adder Truthtable : 
+
+  ![tt](https://github.com/user-attachments/assets/3218cab7-3402-4f43-b268-36472166f1c6)
+ 
+
+    
+Half Subtractor Truthtable :
+
+   ![half subtractor tt](https://github.com/user-attachments/assets/7c2fe8ff-1630-4e7f-add1-96ca5b67a695)
+
+
+
+
 **Procedure**
 
 1.	Type the program in Quartus software.
@@ -63,14 +76,16 @@ Figure -02 HALF Subtractor
        
        output wire carry,  //carry output
      );
-       
+
+       //Logic equation
+
        assign sum = a ^ b;  //XOR for sum
        
        assign carry = a & b; //AND For carry
 
       endmodule
 
-2)
+1)
 
   Half Subtractor
 
@@ -87,7 +102,7 @@ Figure -02 HALF Subtractor
       
       assign borrow = ~a & b;       // Borrow when a < b
       
-    endmodule  
+   endmodule  
 
 Developed by: Monish . R
 
@@ -95,6 +110,25 @@ RegisterNumber: 250147815
 
 **Output/TIMING Waveform**
 
+Half Adder :
+
+ ![half adder ](https://github.com/user-attachments/assets/b384baef-ee64-4410-b3a0-f09d2d7dc76b)
+
+Half Subtractor :
+
+  ![half subtractor](https://github.com/user-attachments/assets/b7bc741d-b03c-4585-9629-36fae0c7b4b8)
+
+Timing WaveForm:
+
+   ![op1](https://github.com/user-attachments/assets/1d267a5c-a924-472f-9731-8e08a9288a66)
+
+Timing Waveform:
+
+   ![op2](https://github.com/user-attachments/assets/ffdaf1cc-bbf7-478d-9f8b-651d76cb0d72)
+
+
 
 
 **Result:**
+
+   Designing a half adder and half subtractor circuit and verifying its truth table in Quartus using Verilog programming is created successfully
