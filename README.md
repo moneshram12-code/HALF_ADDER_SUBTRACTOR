@@ -74,7 +74,7 @@ Figure -02 HALF Subtractor
 
   Half Subtractor
 
-   module half_subtractor (
+    module half_subtractor (
      
      input wire a, b,          //Inputs
      
