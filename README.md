@@ -90,6 +90,7 @@ Figure -02 HALF Subtractor
     endmodule  
 
 Developed by: Monish . R
+
 RegisterNumber: 250147815
 
 **Output/TIMING Waveform**
